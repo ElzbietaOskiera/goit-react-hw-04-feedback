@@ -1,0 +1,24 @@
+.ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 7px 25px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #62066ebd;
+  color: #fcfcfc;
+  border: none;
+  transition: all 500ms linear;
+}
+
+button:hover,
+:focus {
+  background-color: rgb(206, 179, 218);
+  color: #46053bbd;
+}
